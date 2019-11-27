@@ -1,0 +1,22 @@
+Contents:
+Column 1-3: Gregorian calendar date
+- Year
+- Month
+- Day
+Column 4: Date in fraction of year
+Column 5: Daily total sunspot number. A value of -1 indicates that no number is available for that day (missing value).
+Column 6: Daily standard deviation of the input sunspot numbers from individual stations.
+Column 7: Number of observations used to compute the daily value.
+Column 8: Definitive/provisional indicator. A blank indicates that the value is definitive. A '*' symbol indicates that the value is still provisional and is subject to a possible revision (Usually the last 3 to 6 months)
+
+Line format [character position]:
+- [1-4] Year
+- [6-7] Month
+- [9-10] Day
+- [12-19] Decimal date
+- [22-24] Daily sunspot number
+- [26-30] Standard deviation
+- [33-35] Number of observations
+- [37] Definitive/provisional indicator
+
+Source: WDC-SILSO, Royal Observatory of Belgium, Brussels
